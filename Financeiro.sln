@@ -1,0 +1,103 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Financeiro", "Financeiro\Financeiro.csproj", "{2BCDCE9A-6FC6-47D4-AB10-1742A4351A33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Apresentação", "1 - Apresentação", "{BB02F899-E012-4B95-92EC-36621ACBA779}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Aplicação", "2 - Aplicação", "{BA5AECE0-83FB-4E03-9ED0-60A07EAE2EA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Dominio", "3 - Dominio", "{FD6B9418-7D8C-4521-9D4D-41A4085F16A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - InfraEstrutura", "4 - InfraEstrutura", "{93496198-5950-49FF-A8BA-3D033EC50787}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Entidades", "5 - Entidades", "{17B6830C-A88C-4E72-9323-F133166F047C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Applications", "Applications\Applications.csproj", "{9CF6E45E-02C8-4305-BDF1-3B6260742AC3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{59960196-91C4-429C-84B6-AA4F027056AC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infra", "Infra\Infra.csproj", "{5049C7AE-2127-4548-B9E7-D9701E555841}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{1C63CAA6-5425-40A3-B8B2-B4DBD3E8A6B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebFinanceiro", "WebFinanceiro\WebFinanceiro.csproj", "{F3894F97-AA82-4E02-9281-322FD307C51B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BCDCE9A-6FC6-47D4-AB10-1742A4351A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BCDCE9A-6FC6-47D4-AB10-1742A4351A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BCDCE9A-6FC6-47D4-AB10-1742A4351A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BCDCE9A-6FC6-47D4-AB10-1742A4351A33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CF6E45E-02C8-4305-BDF1-3B6260742AC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF6E45E-02C8-4305-BDF1-3B6260742AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CF6E45E-02C8-4305-BDF1-3B6260742AC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CF6E45E-02C8-4305-BDF1-3B6260742AC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59960196-91C4-429C-84B6-AA4F027056AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59960196-91C4-429C-84B6-AA4F027056AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59960196-91C4-429C-84B6-AA4F027056AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59960196-91C4-429C-84B6-AA4F027056AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5049C7AE-2127-4548-B9E7-D9701E555841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5049C7AE-2127-4548-B9E7-D9701E555841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5049C7AE-2127-4548-B9E7-D9701E555841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5049C7AE-2127-4548-B9E7-D9701E555841}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C63CAA6-5425-40A3-B8B2-B4DBD3E8A6B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C63CAA6-5425-40A3-B8B2-B4DBD3E8A6B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C63CAA6-5425-40A3-B8B2-B4DBD3E8A6B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C63CAA6-5425-40A3-B8B2-B4DBD3E8A6B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3894F97-AA82-4E02-9281-322FD307C51B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3894F97-AA82-4E02-9281-322FD307C51B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3894F97-AA82-4E02-9281-322FD307C51B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3894F97-AA82-4E02-9281-322FD307C51B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2BCDCE9A-6FC6-47D4-AB10-1742A4351A33} = {BB02F899-E012-4B95-92EC-36621ACBA779}
+		{9CF6E45E-02C8-4305-BDF1-3B6260742AC3} = {BA5AECE0-83FB-4E03-9ED0-60A07EAE2EA7}
+		{59960196-91C4-429C-84B6-AA4F027056AC} = {FD6B9418-7D8C-4521-9D4D-41A4085F16A5}
+		{5049C7AE-2127-4548-B9E7-D9701E555841} = {93496198-5950-49FF-A8BA-3D033EC50787}
+		{1C63CAA6-5425-40A3-B8B2-B4DBD3E8A6B9} = {17B6830C-A88C-4E72-9323-F133166F047C}
+		{F3894F97-AA82-4E02-9281-322FD307C51B} = {BB02F899-E012-4B95-92EC-36621ACBA779}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48B6DAE8-3ADE-4E93-A44B-07195D31B122}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://valdirferreira2006.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Financeiro\\Financeiro.csproj
+		SccProjectTopLevelParentUniqueName1 = Financeiro.sln
+		SccProjectName1 = Financeiro
+		SccLocalPath1 = Financeiro
+		SccProjectUniqueName2 = Applications\\Applications.csproj
+		SccProjectTopLevelParentUniqueName2 = Financeiro.sln
+		SccProjectName2 = Applications
+		SccLocalPath2 = Applications
+		SccProjectUniqueName3 = Domain\\Domain.csproj
+		SccProjectTopLevelParentUniqueName3 = Financeiro.sln
+		SccProjectName3 = Domain
+		SccLocalPath3 = Domain
+		SccProjectUniqueName4 = Infra\\Infra.csproj
+		SccProjectTopLevelParentUniqueName4 = Financeiro.sln
+		SccProjectName4 = Infra
+		SccLocalPath4 = Infra
+		SccProjectUniqueName5 = Entities\\Entities.csproj
+		SccProjectTopLevelParentUniqueName5 = Financeiro.sln
+		SccProjectName5 = Entities
+		SccLocalPath5 = Entities
+		SccProjectUniqueName6 = WebFinanceiro\\WebFinanceiro.csproj
+		SccProjectTopLevelParentUniqueName6 = Financeiro.sln
+		SccProjectName6 = WebFinanceiro
+		SccLocalPath6 = WebFinanceiro
+	EndGlobalSection
+EndGlobal

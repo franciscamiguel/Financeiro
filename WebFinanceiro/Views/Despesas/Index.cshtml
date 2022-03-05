@@ -1,0 +1,111 @@
+﻿@model IEnumerable<Entities.Entidades.Despesa>
+
+
+
+
+<div class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header card-header-primary">
+                        <h4 class="card-title ">Despesas</h4>
+                        @*<p class="card-category"> Aqui estão suas categorias</p>*@
+                        <p class="card-category">
+                            <i class="material-icons">class</i>
+                            <a asp-action="Create">Criar uma nova Despesa</a>
+                        </p>
+
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead class=" text-primary">
+                                    <tr>
+                                        <th>Ações</th>
+
+                                        <th>
+                                            @Html.DisplayNameFor(model => model.Nome)
+                                        </th>
+                                        <th>
+                                            @Html.DisplayNameFor(model => model.TipoDespesa)
+                                        </th>
+                                        <th>
+                                            @Html.DisplayNameFor(model => model.Valor)
+                                        </th>
+                                        <th>
+                                            @Html.DisplayNameFor(model => model.DataCadastro)
+                                        </th>
+                                        <th>
+                                            @Html.DisplayNameFor(model => model.DataVencimento)
+                                        </th>
+                                        <th>
+                                            @Html.DisplayNameFor(model => model.DataPagamento)
+                                        </th>
+                                        <th>
+                                            @Html.DisplayNameFor(model => model.Pago)
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>
+                                                <a asp-action="Edit" asp-route-id="@item.Id">Edição</a> |
+                                                <a asp-action="Details" asp-route-id="@item.Id">Detalhes</a> |
+                                                <a asp-action="Delete" asp-route-id="@item.Id">Deletar</a>
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Nome)
+                                            </td>
+
+
+                                            <td>
+                                                @if (item.TipoDespesa == Entities.Enums.EnumTipoDespesa.Contas)
+                                                {
+                                                    <span>Contas</span>
+                                                }
+                                                else
+                                                {
+                                                    <span>Investimento</span>
+                                                }
+                                            </td>
+
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Valor)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.DataCadastro)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.DataVencimento)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.DataPagamento)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Pago)
+                                            </td>
+
+
+                                        </tr>
+                                    }
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+<script src="~/js/despesa.js"></script>
+
